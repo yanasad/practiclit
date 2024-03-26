@@ -1,0 +1,13 @@
+﻿<Window x:Class="sadovnikovapractika.windows.Pusto"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:sadovnikovapractika.windows"
+        mc:Ignorable="d"
+        Title="Pusto" Height="600" Width="800" Background="#FF5B7C92" Closing="Window_Closing" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <TextBlock Text="чипи-чипи-чапа-чапа руви-руви рава-рава  " FontSize="80" TextWrapping="Wrap" Foreground="#FFE6CBCB" HorizontalAlignment="Center"/>
+        <Button Name="pystonaz" Width="300" Height="100" HorizontalAlignment="Right" Content="NAZAD" Background="#FFFF9797" Foreground="#FFFF0404" FontSize="48" Click="pystonaz_Click"/>
+    </Grid>
+</Window>
