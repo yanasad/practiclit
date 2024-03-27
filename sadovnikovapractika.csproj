@@ -14,12 +14,14 @@
     <None Remove="images\625086.png" />
     <None Remove="images\free-icon-eye-12603997.png" />
     <None Remove="images\free-icon-profile-7710521.png" />
+    <None Remove="images\hide.png" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="images\1442954.png" />
     <Resource Include="images\3541930.png" />
     <Resource Include="images\free-icon-profile-7710521.png" />
+    <Resource Include="images\hide.png" />
   </ItemGroup>
 
   <ItemGroup>

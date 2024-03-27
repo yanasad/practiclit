@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "r8CQo0/rh6a08hw1SWN/Uy1S0ag6NKJDEkEl3D/wyMGnt36QnT2n1sIYnPUvDloVaryKSMbkjl7VCWqZouCn9Q==",
+  "dgSpecHash": "uKmC3Ufdwcj+GZrgeQLrI7TTBNm+gHNQvDVCtusDNaAJv1fOdCU6z7SxIMXT0sBXOj1DpsAd9Ww/0WnwuZVAxQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\student\\Desktop\\садовникова практика\\sadovnikovapractika\\sadovnikovapractika.csproj",
+  "projectFilePath": "C:\\Users\\student\\Desktop\\practiclit\\sadovnikovapractika.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\student\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\student\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

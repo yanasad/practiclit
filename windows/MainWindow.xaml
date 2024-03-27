@@ -23,16 +23,17 @@
             <RowDefinition/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <TextBox  x:Name="log" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="3" Background="#FFC4C8DC" Width="370" Height="50" TextChanged="login_TextChanged" />
+        <TextBox  x:Name="log" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="3" Background="#FFC4C8DC" Width="370" Height="50"/>
         <TextBox  x:Name="passw" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="3" Background="#FFC4C8DC" Width="370" Height="50" />
         <Button Content="Войти" x:Name="vxod" Grid.Row="5" Grid.Column="2" Background="#FFC4C8DC" Height="50" FontSize="30" FontStretch="Expanded" BorderBrush="#FF5B7C92" Click="vxod_Click"/>
         <Button Content="Не зарегистрированы? Зарегистрироваться"  x:Name="registrac" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="3" Height="40" Background="#FF5B7C92" BorderBrush="#FF5B7C92" FontSize="23" Click="registrac_Click" />
         <Button Grid.Column="3" Grid.Row="3" Grid.ColumnSpan="2" Width="50" Height="50" BorderBrush="#FF5B7C92">
             <Button.Background>
-                <ImageBrush ImageSource="C:\Users\student\Desktop\садовникова практика\sadovnikovapractika\images\1442954.png"/>
+                <ImageBrush ImageSource="/images/1442954.png"/>
+              
             </Button.Background>
         </Button>
-        <Image Source="C:\Users\student\Desktop\садовникова практика\sadovnikovapractika\images\3541930.png" Grid.Column="1" Grid.Row="3" Width="50" HorizontalAlignment="Left"/>
-        <Image Source="C:\Users\student\Desktop\садовникова практика\sadovnikovapractika\images\free-icon-profile-7710521.png" Grid.Column="1" Grid.Row="1" Width="50" HorizontalAlignment="Left"/>
+        <Image Source="/images/3541930.png" Grid.Column="1" Grid.Row="3" Width="50" HorizontalAlignment="Left"/>
+        <Image Source="/images/free-icon-profile-7710521.png" Grid.Column="1" Grid.Row="1" Width="50" HorizontalAlignment="Left"/>
     </Grid>
 </Window>

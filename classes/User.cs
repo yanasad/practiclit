@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace sadovnikovapractika.classes
 {
+  
     public class User
     {
         public int Id { get; set; }

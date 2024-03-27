@@ -11,7 +11,7 @@ using sadovnikovapractika.classes;
 namespace sadovnikovapractika.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240326120422_Initial")]
+    [Migration("20240327094233_Initial")]
     partial class Initial
     {
         /// <inheritdoc />

@@ -13,6 +13,8 @@
             <ColumnDefinition/>
             <ColumnDefinition/>
             <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition/>
@@ -27,16 +29,20 @@
             <RowDefinition/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <TextBox  x:Name="email" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="3" Background="#FFFFC1C9" Height="50" />
-        <TextBox x:Name="log" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="3" Background="#FFFFC1C9" Height="50" />
-        <TextBox x:Name="passw" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="3" Background="#FFFFC1C9" Height="50" />
-        <TextBox x:Name="repit" Grid.Row="7" Grid.Column="1" Grid.ColumnSpan="3" Background="#FFFFC1C9" Height="50" />
-        <Button Content="Зарегистрироваться" x:Name="zarega" Grid.Row="9" Grid.Column="1"  Grid.ColumnSpan="3" Background="#FFFFC1C9" Height="50" Width="200" BorderBrush="#FF5B7C92" FontSize="20" Foreground="#FF210B0B" Click="zarega_Click"/>
+        <TextBox  x:Name="email" Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="3" Background="#FFFFC1C9" Height="50" />
+        <TextBox x:Name="log" Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="3" Background="#FFFFC1C9" Height="50" />
+        <TextBox x:Name="passw" Grid.Row="5" Grid.Column="2" Grid.ColumnSpan="3" Background="#FFFFC1C9" Height="50" />
+        <TextBox x:Name="repit" Grid.Row="7" Grid.Column="2" Grid.ColumnSpan="3" Background="#FFFFC1C9" Height="50" />
+        <Button Content="Зарегистрироваться" x:Name="zarega" Grid.Row="9" Grid.Column="2"  Grid.ColumnSpan="3" Background="#FFFFC1C9" Height="50" Width="200" BorderBrush="#FF5B7C92" FontSize="20" Foreground="#FF210B0B" Click="zarega_Click"/>
         <Button Content="Назад" x:Name="back" Grid.Row="10" Grid.Column="0" Grid.ColumnSpan="2" Height="50" Background="#FFFFC1C9" BorderBrush="#FF5B7C92"  Width="160" FontSize="20" Foreground="#FF210B0B" Click="back_Click"/>
-        <TextBlock Text="Email:" Grid.Column="0" Grid.Row="1" HorizontalAlignment="Center" FontSize="20" Foreground="#FFFFC1C9"/>
-        <TextBlock Text="Логин:" Grid.Column="0" Grid.Row="3" HorizontalAlignment="Center" FontSize="20" Foreground="#FFFFC1C9"/>
-        <TextBlock Text="Пароль:" Grid.Column="0" Grid.Row="5" HorizontalAlignment="Center" FontSize="20" Foreground="#FFFFC1C9" />
-        <TextBlock Text="Повтор пароля:" Grid.Column="0" Grid.Row="7" HorizontalAlignment="Center" FontSize="20" Foreground="#FFFFC1C9" />
-
+        <TextBlock Text="Email:" Grid.Column="0" Grid.Row="1" HorizontalAlignment="Center" FontSize="20" Foreground="#FFFFC1C9" Grid.ColumnSpan="2"/>
+        <TextBlock Text="Логин:" Grid.Column="0" Grid.Row="3" HorizontalAlignment="Center" FontSize="20" Foreground="#FFFFC1C9" Grid.ColumnSpan="2"/>
+        <TextBlock Text="Пароль:" Grid.Column="0" Grid.Row="5" HorizontalAlignment="Center" FontSize="20" Foreground="#FFFFC1C9"  Grid.ColumnSpan="2"/>
+        <TextBlock Text="Повтор пароля:" Grid.Column="0" Grid.Row="7" HorizontalAlignment="Center" FontSize="20" Foreground="#FFFFC1C9"  Grid.ColumnSpan="2"/>
+        <TextBlock x:Name="erremail"  FontSize="20" TextWrapping="Wrap" Grid.Column="5" Grid.Row="1" HorizontalAlignment="Center" Foreground="#FFEA323B"  Grid.ColumnSpan="2" />
+        <TextBlock x:Name="errlog" FontSize="20" TextWrapping="Wrap" Grid.Column="5" Grid.Row="3" HorizontalAlignment="Center" Foreground="#FFEA323B" Grid.ColumnSpan="2"/>
+        <TextBlock x:Name="errpassword"  FontSize="15" TextWrapping="Wrap" Grid.Column="5" Grid.Row="5" HorizontalAlignment="Center" Foreground="#FFEA323B"  Grid.ColumnSpan="2"/>
+        <TextBlock x:Name="errpasswlenght" FontSize="15" TextWrapping="Wrap" Grid.Column="5" Grid.Row="5" HorizontalAlignment="Center" Foreground="#FFEA323B"  Grid.ColumnSpan="2"/>
+        <TextBlock x:Name="errrepit" FontSize="20" TextWrapping="Wrap" Grid.Column="5" Grid.Row="7" HorizontalAlignment="Center" Foreground="#FFEA323B"   Grid.ColumnSpan="2"/>
     </Grid>
 </Window>
